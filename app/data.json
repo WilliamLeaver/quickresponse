@@ -1,0 +1,49 @@
+[{
+    "id": 1,
+    "type": "String",
+    "label": "Initial SLP",
+    "response": "Initial registration was completed, and activation key was sent!"
+},
+{
+    "id": 2,
+    "type": "Calendar",
+    "label": "Reg Extend",
+    "response": "Registration extended to: {date}"
+},
+{
+    "id": 3,
+    "type": "String",
+    "label": "SLP Needed",
+    "response": "Registration completed and License Adjustment email sent!"
+},
+{
+    "id": 4,
+    "type": "String",
+    "label": "No CST Reply",
+    "response": "Customer did not reply after issue was resolved. Closing case!"
+},
+{
+    "id": 5,
+    "type": "String",
+    "label": "Closing Case",
+    "response": "Issue was resolved. Closing case!"
+},
+{
+    "id": 6,
+    "type": "String",
+    "label": "LTR Active",
+    "response": "Live Training Room Subscription has been activated!"
+},
+{
+    "id": 7,
+    "type": "String",
+    "label": "Attempt LVM",
+    "response": "Attempted, Left Voicemail, Unable to Reach email sent!"
+},
+{
+    "id": 8,
+    "type": "String",
+    "label": "Attempt NVM",
+    "response": "Attempted, No Voicemail, Unable to Reach email sent!"
+}
+]
