@@ -8,7 +8,7 @@
     "id": 2,
     "type": "Calendar",
     "label": "Reg Extend",
-    "response": "Registration extended to: {date}"
+    "response": "Registration extended to: "
 },
 {
     "id": 3,
