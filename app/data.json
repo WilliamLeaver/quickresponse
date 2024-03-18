@@ -42,26 +42,14 @@
 },
 {
     "id": 8,
-    "type": "String",
-    "label": "Attempt LVM",
-    "response": "Attempted, Left Voicemail, Unable to Reach email sent!"
+    "type": "Attempts",
+    "label": "VIP Attempt",
+    "response": "Attempted"
 },
 {
     "id": 9,
-    "type": "String",
-    "label": "Attempt NVM",
-    "response": "Attempted, No Voicemail, Unable to Reach email sent!"
-},
-{
-    "id": 10,
-    "type": "String",
-    "label": "VPU CC Call LVM",
-    "response": "VPU CC Call: No answer, Left Voicemail"
-},
-{
-    "id": 11,
-    "type": "String",
-    "label": "VPU CC Call NVM",
-    "response": "VPU CC Call: No answer, No Voicemail"
+    "type": "Attempts",
+    "label": "VPU CC Call Attempt",
+    "response": "VPU CC Call: No answer"
 }
 ]
