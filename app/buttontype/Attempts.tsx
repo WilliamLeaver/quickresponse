@@ -39,7 +39,7 @@ const Attempts = (props:Props) => {
             <Checkbox id="email" onCheckedChange={() => {if (Emailchecked == true) setEmailchecked(false); else setEmailchecked(true);}}/><Label htmlFor="email">Email Sent?</Label>
         </div>
         <div className='flex justify-end mt-1'>
-          <Button onClick={() => {props.ClipboardCopy(CraftResponse(props.response, VMchecked, Emailchecked))}}>Done</Button>
+          <Button onClick={() => {props.ClipboardCopy(CraftResponse(props.response, VMchecked, Emailchecked)); setCalendarOpen(false); setEmailchecked(false); setVMchecked(false);}}>Done</Button>
         </div>
       </PopoverContent>
     </Popover>
