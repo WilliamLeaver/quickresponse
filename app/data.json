@@ -12,38 +12,56 @@
 },
 {
     "id": 3,
+    "type": "Calendar+Time",
+    "label": "Install Complete",
+    "response": "Customer is fully installed and first appointment scheduled for: "
+},
+{
+    "id": 4,
     "type": "String",
     "label": "SLP Needed",
     "response": "Registration completed and License Adjustment email sent!"
 },
 {
-    "id": 4,
+    "id": 5,
     "type": "String",
     "label": "No CST Reply",
     "response": "Customer did not reply after issue was resolved. Closing case!"
 },
 {
-    "id": 5,
+    "id": 6,
     "type": "String",
     "label": "Closing Case",
     "response": "Issue was resolved. Closing case!"
 },
 {
-    "id": 6,
+    "id": 7,
     "type": "String",
     "label": "LTR Active",
     "response": "Live Training Room Subscription has been activated!"
 },
 {
-    "id": 7,
+    "id": 8,
     "type": "String",
     "label": "Attempt LVM",
     "response": "Attempted, Left Voicemail, Unable to Reach email sent!"
 },
 {
-    "id": 8,
+    "id": 9,
     "type": "String",
     "label": "Attempt NVM",
     "response": "Attempted, No Voicemail, Unable to Reach email sent!"
+},
+{
+    "id": 10,
+    "type": "String",
+    "label": "VPU CC Call LVM",
+    "response": "VPU CC Call: No answer, Left Voicemail"
+},
+{
+    "id": 11,
+    "type": "String",
+    "label": "VPU CC Call NVM",
+    "response": "VPU CC Call: No answer, No Voicemail"
 }
 ]
