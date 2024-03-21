@@ -2,54 +2,72 @@
     "id": 1,
     "type": "String",
     "label": "Initial SLP",
-    "response": "Initial registration was completed, and activation key was sent!"
+    "response": "Initial registration was completed, and activation key was sent!",
+    "section": "Notes"
 },
 {
     "id": 2,
     "type": "Calendar",
     "label": "Reg Extend",
-    "response": "Registration extended to: "
+    "response": "Registration extended to: ",
+    "section": "Notes"
+    
+
 },
 {
     "id": 3,
     "type": "Calendar+Time",
     "label": "Install Complete",
-    "response": "Customer is fully installed and first appointment scheduled for: "
+    "response": "Customer is fully installed and first appointment scheduled for: ",
+    "section": "Scheduling"
 },
 {
     "id": 4,
     "type": "String",
     "label": "SLP Needed",
-    "response": "Registration completed and License Adjustment email sent!"
+    "response": "Registration completed and License Adjustment email sent!",
+    "section": "Notes"
 },
 {
     "id": 5,
     "type": "String",
     "label": "No CST Reply",
-    "response": "Customer did not reply after issue was resolved. Closing case!"
+    "response": "Customer did not reply after issue was resolved. Closing case!",
+    "section": "Notes"
 },
 {
     "id": 6,
     "type": "String",
     "label": "Closing Case",
-    "response": "Issue was resolved. Closing case!"
+    "response": "Issue was resolved. Closing case!",
+    "section": "Notes"
 },
 {
     "id": 7,
     "type": "String",
     "label": "LTR Active",
-    "response": "Live Training Room Subscription has been activated!"
+    "response": "Live Training Room Subscription has been activated!",
+    "section": "Notes"
 },
 {
     "id": 8,
     "type": "Attempts",
     "label": "VIP Attempt",
-    "response": "Attempted"
+    "response": "Attempted",
+    "section": "Attempts"
 },
 {
     "id": 9,
     "type": "Attempts",
     "label": "VPU CC Call Attempt",
-    "response": "VPU CC Call: No answer"
+    "response": "VPU CC Call: No answer",
+    "section": "Attempts"
+},
+{
+    "id": 10,
+    "type": "Calendar+Time",
+    "label": "Customer Reschedule",
+    "response": "Customer needed rescheduled and is now scheduled for: ",
+    "section": "Scheduling"
 }
 ]

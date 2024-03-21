@@ -25,7 +25,20 @@ const Pickdate = (props:Props) => {
           <Calendar mode="single" selected={props.date} onSelect={props.setDate} className="rounded-md border"></Calendar>
         </div>
         <div className='flex justify-end mt-1'>
-          <Button onClick={() => { props.ClipboardCopy(props.response + props.date?.toDateString().slice(0, 16)); setCalendarOpen(false); }}>Done</Button>
+          <Button onClick={() => { 
+            if (props.date != undefined) {
+              if (props.date <= new Date()) {
+                alert('Date must be in the future');
+              }
+              else {
+                props.ClipboardCopy(props.response + props.date?.toDateString().slice(0, 16)); 
+                setCalendarOpen(false); 
+              }
+            }
+            else {
+              alert('Please select a date');
+            }
+          }}>Done</Button>
         </div>
       </PopoverContent>
     </Popover>
